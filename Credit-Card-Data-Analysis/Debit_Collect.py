@@ -1,3 +1,10 @@
+# Welcome to the Credit Card Data Analysis script!
+# For more information and updates, please visit the GitHub repository:
+# https://github.com/PanosEZ/Credit-Card-Data-Analysis
+#
+# Author: PANAGIOTIS EZANIDIS
+# Date: November 30, 2023
+
 import random
 from collections import defaultdict
 import time
