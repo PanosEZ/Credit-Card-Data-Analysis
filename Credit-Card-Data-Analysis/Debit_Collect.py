@@ -1,9 +1,29 @@
-# Welcome to the Credit Card Data Analysis script!
-# For more information and updates, please visit the GitHub repository:
+# Credit Card Data Analysis Script
+# --------------------------------
+# This Python script processes and analyzes credit card charge data using various methods,
+# including hash table data structures. It generates random credit card charges, computes
+# statistics, and visualizes the results.
+#
+# Methods Used:
+# - Generation of random credit card charges.
+# - Processing charges to calculate total payments and transaction counts.
+# - Utilization of a hash table data structure for efficient data processing.
+# - Visualization of execution times and performance using PyGraph.
+#
+# For more details and updates, please visit the GitHub repository:
 # https://github.com/PanosEZ/Credit-Card-Data-Analysis
 #
-# Author: PANAGIOTIS EZANIDIS
+# Author: Panagiotis Ezanidis
 # Date: November 30, 2023
+#
+# Print statistics and PyGraph diagram at the end
+# ----------------------------------------------
+# Print statistics for the dataset, including the card with the smallest and largest
+# total payments, as well as the card with the fewest and most transactions.
+#
+# Additionally, a PyGraph diagram showing the execution times vs. the number of charges
+# will be generated and displayed to visualize performance.
+
 
 import random
 from collections import defaultdict
